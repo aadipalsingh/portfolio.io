@@ -19,10 +19,16 @@
       <div class="container">
         <h1 class="logo">My Portfolio</h1>
         <nav>
+          <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
           <ul class="nav-links">
             <li><a href="#about">About</a></li>
             <li><a href="#skills">Skills</a></li>
             <li><a href="#projects">Projects</a></li>
+            <li><a href="#experience">Experience</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
         </nav>
@@ -31,23 +37,47 @@
 
     <section id="hero" class="hero">
       <div class="container">
-        <h2>Hello, I'm <span class="highlight">Aditya Pal</span></h2>
-        <p>
-          Web Developer | Tech enthusiast.
-        </p>
-        <a href="#projects" class="cta-btn">View Projects</a>
+        <div class="hero-content" data-aos="fade-up">
+          <h2>Hello, I'm <span class="highlight">Aditya Pal</span></h2>
+          <p>Web Developer | Tech enthusiast.</p>
+          <a href="/resume.pdf" class="cta-btn" download>Download Resume</a>
+          <div class="social-icons_hero">
+            <a href="https://github.com/aadipalsingh" target="_blank" class="social-link_hero">
+              <img src="https://cdn-icons-png.flaticon.com/512/733/733553.png" alt="GitHub Icon">
+            </a>
+            <a href="https://www.linkedin.com/in/aditya-pal2005" target="_blank" class="social-link_hero">
+              <img src="https://cdn-icons-png.flaticon.com/512/733/733561.png" alt="LinkedIn Icon">
+              </a>
+            <a href="https://www.instagram.com/aadipalsingh" target="_blank" class="social-link_hero">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram Icon">
+              </a>
+          </div>
+        </div>
+        <div class="hero-image" data-aos="fade-left">
+          <img src="/im.png" alt="Aditya Pal">
+        </div>
       </div>
     </section>
 
     <section id="about" class="section about" data-aos="fade-up">
       <div class="container">
         <h2>About Me</h2>
-        <p>
-            I’m a passionate B.Tech Computer Science student with skills in Web Development🌐, Python🐍, C and Generative AI. 
-            I have experience building projects like responsive online Bookstore, and database-driven solutions,
-            showcasing my problem-solving abilities and creativity. I am always eager to learn new technologies and tools to enhance 
-            my skills.
-        </p>
+        <div class="about-content">
+          <div class="about-image">
+            <img src="/about.png" alt="Aditya Pal">
+          </div>
+          <div class="about-text">
+            <p>
+              I’m <strong>Aditya Pal</strong>, a passionate B.Tech Computer Science student with skills in Web Development🌐, Python🐍, C and Generative AI. 
+              I have experience building projects like responsive online Bookstore, and database-driven solutions,
+              showcasing my problem-solving abilities and creativity. I am always eager to learn new technologies and tools to enhance 
+              my skills.
+            </p><br>
+            <p>Feel free to reach out to me.</p><br>
+        <p><span>Email: <a href="mailto:aadipalsingh@gmail.com">aadipalsingh@gmail.com</a></span></p><br>
+        <p>Phone: +91 8791910413</p>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -137,31 +167,67 @@
         <h2>My Projects</h2>
         <div class="projects-grid">
           <div class="project-box" data-aos="fade-right">
-            <h3>BookBreeze - Online Bookstore</h3>
-            <p>A Simple online bookstore platform for users to browse, and purchase books with ease. Designed with a user-friendly interface.</p>
-            <a href="https://aadipalsingh.github.io/landingpage/" class="link">View</a>
+            <div class="project-image">
+              <img src="/landing.png" alt="BookBreeze - Online Bookstore">
+            </div>
+            <div class="project-details">
+              <h3>BookBreeze - Online Bookstore</h3>
+              <p>A Simple online bookstore platform for users to browse, and purchase books with ease. Designed with a user-friendly interface.</p>
+              <a href="https://aadipalsingh.github.io/landingpage/" class="link">View</a>
+            </div>
           </div>
           <div class="project-box" data-aos="fade-up">
-            <h3>To-Do List App</h3>
-            <p>A task management application built using Python and Tkinter. Features include adding, deleting, and marking tasks as complete, all in a simple GUI.</p>
-            <a href="https://github.com/aadipalsingh/CODSOFT/tree/22df68814db155f7f4b789b86cd8edfe932cfa59/To-Do%20App" class="link">View</a>
+            <div class="project-image">
+              <img src="/todo.png" alt="To-Do List App">
+            </div>
+            <div class="project-details">
+              <h3>To-Do List App</h3>
+              <p>A task management application built using Python and Tkinter. Features include adding, deleting, and marking tasks as complete, all in a simple GUI.</p>
+              <a href="https://github.com/aadipalsingh/CODSOFT/tree/22df68814db155f7f4b789b86cd8edfe932cfa59/To-Do%20App" class="link">View</a>
+            </div>
           </div>
           <div class="project-box" data-aos="fade-left">
-            <h3>Portfolio Website</h3>
-            <p>A personal portfolio website showcasing my skills, projects, and contact information. Built with HTML, CSS, and JavaScript for a minimalistic and modern design.</p>
-            <a href="https://aadipalsingh.github.io/portfolio.io/" class="link">View</a>
+            <div class="project-image">
+              <img src="/image.png" alt="Portfolio Website">
+            </div>
+            <div class="project-details">
+              <h3>Portfolio Website</h3>
+              <p>A personal portfolio website showcasing my skills, projects, and contact information. Built with HTML, CSS, and JavaScript for a minimalistic and modern design.</p>
+              <a href="https://aadipalsingh.github.io/portfolio.io/" class="link">View</a>
+            </div>
           </div>
         </div>
       </div>
     </section>
-
-    <section id="resume" class="resume" data-aos="fade-up">
-  <div class="container">
-    <h2>My Resume</h2>
-    <p>Download my resume to learn more about skills, and accomplishments.</p>
-    <a href="./Resume.pdf" target="blank" class="resumebtn">Download Resume</a>
-  </div>
-</section>
+    <section id="experience" class="section experience" data-aos="fade-up">
+      <div class="container">
+        <h2>Experience</h2>
+        <div class="experience-grid">
+          <div class="experience-box" data-aos="fade-right">
+            <div class="company-icon">
+              <img src="/codicon.png" alt="CODSOFT Icon">
+            </div>
+            <h3>CODSOFT</h3>
+            <p>Role: Python Developer Intern</p>
+            <p>Duration: Dec 2024 - Jan 2025</p>
+            <p>Location: Remote</p>
+            <p>Make the various projects as Tasks like To-Do App using Tkinter, Password Generator And Calculator. </p>
+            <a href="https://drive.google.com/file/d/13sYf5NAD6Ia4F3pqTzMmio-om3IwGU5w/view?usp=sharing" class="certificate-btn" target="_blank">Certificate</a>
+          </div>
+          <div class="experience-box" data-aos="fade-left">
+            <div class="company-icon">
+              <img src="/oasisicon.jpg" alt="Company B Icon">
+            </div>
+            <h3>Oasis Infobyte</h3>
+            <p>Role: Web Developer Intern</p>
+            <p>Duration: Dec 2024 - Jan 2025</p>
+            <p>Location: Remote</p>
+            <p>Make the projects like landing Page, Portfolio, Temperature Converter Websites and learned about backend technologies.</p>
+            <a href="https://drive.google.com/file/d/13uehq71PsVWDo2Lgp1UG4H1XBk-viMPK/view?usp=sharing" class="certificate-btn" target="_blank">Certificate</a>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <section id="social-media" class="section social-media" data-aos="fade-up">
         <div class="container">
@@ -185,10 +251,27 @@
       
     <section id="contact" class="section contact" data-aos="fade-up">
       <div class="container">
-        <h2>Contact</h2>
-        <p>Feel free to reach out to me.</p>
-        <p>Email: aadipalsingh@gmail.com</p>
-        <p>Phone: +91 8791910413</p>
+        <h2 data-aos="fade-down">Contact</h2>
+        <p data-aos="fade-down">Feel free to reach out to me.</p>
+        <form class="contact-form">
+          <div class="form-group" data-aos="fade-right">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="form-group" data-aos="fade-left">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group" data-aos="fade-right">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" required>
+          </div>
+          <div class="form-group" data-aos="fade-left">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="submit-btn" data-aos="zoom-in">Send Message</button>
+        </form>
       </div>
     </section>
 
@@ -201,6 +284,15 @@
       AOS.init({
         duration: 1200,
         once: true,
+      });
+    </script>
+    <script>
+      const mobileMenu = document.getElementById('mobile-menu');
+      const navLinks = document.querySelector('.nav-links');
+
+      mobileMenu.addEventListener('click', () => {
+        mobileMenu.classList.toggle('is-active');
+        navLinks.classList.toggle('active');
       });
     </script>
   </body>
